@@ -32,8 +32,10 @@ The work is carried out on different stages, starting with the management of the
 
 #####c)	Resources :
 
- *	•	P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
-
+ *		P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+*		Coursera
+*		Stackoverflow
+*		Inspired by : [Distribution of craters on Mars](https://github.com/ekolik/-Python-Distribution_of_craters_on_Mars)
 
 
 ##II.	Data management and visualization :
@@ -71,7 +73,7 @@ In addition, it can be assumed that the percentage variability in the amount of 
 Then, I apply scatter-plots of these variables to check the linearity of the relationship.
 Both plots show a positive but non-linear correlation.
 
-##a)	Exploration of statistical interactions
+#####c)	Exploration of statistical interactions
 
 In this part, I check the density of the wine and the quantity of residual sugar if there is a linearity by wine quality range. Otherwise, I divide the data into 3 groups by the quality marks of the wines (low, medium, strong) then I calculate the Pearson correlation coefficient for each group. Then I define the quality marks of the wine as follows: high if the quality rank is greater than or equal to 8, average if the quality rank is equal to 6 or 7 and low if the quality rank is lower or Equal to 5 as in the previous section.
 
